@@ -7,4 +7,4 @@ const estimatorSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('estimator', estimatorSchema);
+module.exports = mongoose.model('estimator', estimatorSchema, 'estimator');

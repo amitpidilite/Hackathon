@@ -7,4 +7,4 @@ const digitalProfileSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('digital-profile', digitalProfileSchema);
+module.exports = mongoose.model('digital-profile', digitalProfileSchema, 'digital-profile');

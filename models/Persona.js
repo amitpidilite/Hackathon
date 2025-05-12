@@ -6,4 +6,4 @@ const personaSchema = new mongoose.Schema({
   created_at: { type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('persona', personaSchema);
+module.exports = mongoose.model('personas', personaSchema);
